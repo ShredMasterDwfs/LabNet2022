@@ -1,0 +1,171 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+fieldset {
+    width: 375px;
+    margin: 20px;
+    border: 1px rgb(255, 105, 79) solid;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gral-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #e77743;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 95%;
+    background-color:   #f7b56b;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.img-container {
+    width: 50%;
+    background-image: url("login-back.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 20px 20px 0;
+}
+
+label {
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.radio div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type="radio"]{
+    padding: 0 auto;
+    margin-left: 60px;
+    margin-right: 10px;
+    width: 15px;
+    height: 25px;
+}
+
+.radio label{
+    font-size: 12px;
+}
+
+p div {
+    padding: 0 auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.radio label {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px grey;
+}
+
+button:focus {
+    outline: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.boton {
+    width: 175px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247, 84, 44);
+    color: white;
+}
+
+.boton:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a {
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-message {
+    color: green;
+    visibility: visible;
+    font-size: 15px;
+    font-weight:bold;
+    height: 5px;
+    width: 300px;
+}
+
+.message {
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css" type="text/css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="gral-container">
+        <div class="container">
+            <div class="login-container">
+                <form action="" id="form">
+                    <fieldset>
+                        <legend>Información personal:</legend>
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input id="name" type="text" placeholder="Ingrese su nombre:">
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido:</label>
+                        <input id="lastname" type="text" placeholder="Ingrese su apellido:">
+                    </p>
+                    <p>
+                        <label for="age">Edad:</label>
+                        <input id="age" type="number" max=80 min=18 placeholder="Ingrese su edad:">
+                    </p>
+                    
+                    <div class="radio">
+                        <div>
+                            <input type="radio" id="masculino" name="fav_language" value="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="femenino" name="fav_language" value="femenino">
+                            <label for="femenino">Femenino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="otro" name="fav_language" value="otro" checked>
+                            <label for="otro">Otro</label>
+                        </div>
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Información adicional:</legend>
+                        <p>
+                            <label for="empresa">Empresa:</label>
+                            <input type="text" placeholder="Ingrese la empresa:">
+                        </p>
+                    </fieldset>
+                    <div class="buttons">
+                        <button type="submit" id="btn-submit" class="boton">Submit</button>
+                        <button type="reset" id="btn-reset" class="boton">Reset</button>
+                    </div>
+                </form>
+                <div class="anclas">
+                    <a href="login.html">Ya tengo una cuenta</a>
+                </div>
+                <div class="message">
+                    <p id="info-message"> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

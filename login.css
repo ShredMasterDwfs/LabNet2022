@@ -1,0 +1,121 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gral-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #e77743;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 50%;
+    background-color: #f7b56b;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.img-container {
+    width: 50%;
+    background-image: url("login-back.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 20px 20px 0;
+    filter: hue-rotate(210deg) brightness(125%);
+}
+
+label {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 2px 2px grey;
+}
+
+button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#boton {
+    width: 210px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247, 84, 44);
+    color: white;
+}
+
+#boton:hover {
+    opacity: 0.7;
+}
+
+.anclas {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a {
+    font-size: 9px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .img-container {
+        display: none;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    a {
+        font-size: 8px;
+        text-align: center;
+        margin: 0 15px 0 15px;
+    }
+}
